@@ -1,0 +1,42 @@
+{
+  "name": "sssrrr-boilerplate",
+  "version": "1.0.0",
+  "description": "SSSRRR is an isomorphic Simple Server Side React Redux Rendering boilerplate. Made to be simple for very quick start developing react/redux applications without wasting time on pretyfying and removing redundant stuff.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linuxenko/sssrrr-boilerplate.git"
+  },
+  "homepage" : "https://github.com/linuxenko/sssrrr-boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "lint": "eslint client components server shared",
+    "build": "webpack",
+    "start": "node index.js",
+    "travis" : "npm run lint && npm test"
+  },
+  "keywords": [],
+  "author": "Svetlana Linuxenko <linuxenko@yahoo.com> (http://www.linuxenko.pro)",
+  "license": "MIT",
+  "dependencies": {
+    "babel-core": "^6.17.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-register": "^6.16.3",
+    "express": "^4.14.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.8.1",
+    "redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "babel-jest": "^16.0.0",
+    "babel-loader": "^6.2.5",
+    "eslint": "^3.7.1",
+    "eslint-plugin-react": "^6.3.0",
+    "jest-cli": "^16.0.1",
+    "react-test-renderer": "^15.3.2",
+    "webpack": "^1.13.2"
+  }
+}

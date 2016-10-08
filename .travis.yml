@@ -1,0 +1,10 @@
+sudo: required
+language: node_js
+node_js:
+  - "6"
+install:
+    - npm i jest-cli -g
+    - npm i eslint -g
+    - npm i
+script:
+- npm run travis
